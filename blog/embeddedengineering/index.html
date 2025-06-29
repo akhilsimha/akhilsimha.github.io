@@ -82,7 +82,7 @@
   
 
 
-<title>CAN Bus for Developers</title>
+<title>Embedded Engineering</title>
 
 
 
@@ -157,8 +157,8 @@
       
       
       
-        <meta property="og:image" content="http://localhost:1313/images/canCover.png" />
-        <meta name="twitter:image" content="http://localhost:1313/images/canCover.png" />
+        <meta property="og:image" content="http://localhost:1313/images/esp32/esp32_one.jpg" />
+        <meta name="twitter:image" content="http://localhost:1313/images/esp32/esp32_one.jpg" />
         <meta
           name="twitter:card"
           content="summary_large_image" />
@@ -172,7 +172,7 @@
     
     <meta
       property="og:image:type"
-      content="image/.png" />
+      content="image/.jpg" />
   
 
 
@@ -182,13 +182,13 @@
 
 
 
-<meta property="og:title" content="CAN Bus for Developers" />
+<meta property="og:title" content="Embedded Engineering" />
 <meta property="og:description" content="Akhil Simha Neela" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/blog/canbus/" />
+<meta property="og:url" content="http://localhost:1313/blog/embeddedengineering/" />
 
 
-<meta name="twitter:title" content="CAN Bus for Developers" />
+<meta name="twitter:title" content="Embedded Engineering" />
 <meta name="twitter:description" content="Akhil Simha Neela" />
 
 
@@ -571,7 +571,7 @@
                   <a
                     class="nav-dropdown-link "
                     
-                    href="/living">
+                    href="/recommendation">
                     Living
                   </a>
                 </li>
@@ -903,29 +903,29 @@
         <picture>
           <source
             
-              srcset="/images/canCover_hu13766364578528869516.webp"
+              srcset="/images/esp32/esp32_one_hu13091771724110294104.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/canCover_hu1039485680151502802.webp"
+              srcset="/images/esp32/esp32_one_hu9134284866241544596.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/canCover_hu4437117273290750376.webp"
+              srcset="/images/esp32/esp32_one_hu2552753102244953574.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/canCover_hu14455320909993093099.webp"
+              srcset="/images/esp32/esp32_one_hu11107738463760425656.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/canCover_hu13221687261103942298.png"
+              src="/images/esp32/esp32_one_hu2663266929283189455.jpg"
             class=" w-full rounded img"
-            alt="CAN Bus for Developers"
+            alt="Embedded Engineering"
             width="1096"
             height="480" />
         </picture>
@@ -942,7 +942,7 @@
             </div>
           
           <h1 class="h2 mb-4">
-            CAN Bus for Developers
+            Embedded Engineering
           </h1>
           <ul class="mb-4">
 
@@ -952,58 +952,31 @@
                 <i class="fa-regular fa-folder mr-2"></i>
                 
                   <a
-                    href="/categories/notes/"
+                    href="/categories/roadmap/"
                     class=""
-                    >Notes
+                    >Roadmap
                   </a>
                 
               </li>
             
             <li class="mr-4 inline-block">
               <i class="fa-regular fa-clock mr-2"></i>
-              November 15, 2024
+              October 10, 2024
             </li>
           </ul>
           <div class="content mb-10">
-            <p>This is a notes page for understanding the implementation of CAN Messages from the perspective of developers.</p>
-<h4 id="how-does-a-can-message-frame-look-like-">How does a CAN message frame look like ?</h4>
-<h4 id="what-is-can-message-filtering-">What is CAN Message Filtering ?</h4>
-<p>All messages on a CAN network will be received by all nodes. To process only messages of interest, a hardware filtering mechanism is implemented. The CAN Protocol module can be configured to receive only messages of interest. Each acceptance filter contains a filter object and a mask object. The user application configures the specific filter to receive a message with a given identifier by setting the filter object and mask object to match the identifier of the message to be received.</p>
-<h4 id="what-is-the-use-of-mask-">What is the use of mask ?</h4>
-<p>A mask are the bits that are used for comparing in order to filter CAN messages.</p>
-<p>! Add a chart of filter and mask.</p>
-<h4 id="can-masking-and-filtering-be-applied-to-tx-so-that-messages-are-sent-only-to-a-particular-node">Can masking and filtering be applied to Tx so that messages are sent only to a particular node?</h4>
-<h4 id="how-is-the-masking-done-in-order-to-isolate-the-the-bits-">How is the masking done in order to isolate the the bits ?</h4>
-<h4 id="roadmap-of-can---pending">ROADMAP OF CAN - PENDING</h4>
-<h4 id="what-is-the-difference-between-can-base-frame-and-can-extended-frame-">What is the difference between CAN Base Frame and CAN Extended Frame ?</h4>
-<h4 id="what-is-the-difference-between-standard-id-and-extended-id">What is the difference between Standard ID and Extended ID?</h4>
-<p>In the standard frame format (also known as 2.0A), the length of the ID is 11 bits. In the extended frame format (also known as 2.0B), the length of the ID is 29 bits.</p>
-<h4 id="but-why-do-we-need-two-different-length-of-ids-">But why do we need two different length of ID&rsquo;s ?</h4>
-<p>The original CAN standard (2.0A) uses an 11-bit identifier, allowing for 2,048 unique message IDs. This shorter ID is more efficient because it reduces the size of the CAN frame, leaving more room for data payload and reducing transmission time, which is crucial in applications where timing and bandwidth efficiency are priorities (e.g., automotive systems).</p>
-<p>Extended Frame (29-bit ID): The extended CAN standard (2.0B) was introduced to support 8,388,608 unique message IDs. This allows for far more flexibility in larger or more complex systems, where more nodes and types of messages need to be distinguished. The trade-off is that the larger ID consumes more space in the frame, slightly reducing the data payload efficiency. The extended format was designed in such a way that it is backward compatible with the standard format, allowing mixed networks where both types of frames coexist.</p>
-<h4 id="what-is-can-ids--and-what-are-functional-request-physical-request-and-response-can-id--what-is-their-purpose-">What is CAN IDs ? And what are Functional Request, Physical Request and Response CAN ID ? What is their purpose ?</h4>
-<h4 id="is-it-possible-to-send-timestamps-in-each-can-message-and-how-is-it-calculated">Is it possible to send timestamps in each CAN Message and how is it calculated?</h4>
-<h4 id="what-are-can-buffers-">What are CAN buffers ?</h4>
-<p>Transmit (TX) Buffers: These hold messages that are waiting to be sent onto the CAN bus.
-Receive (RX) Buffers: These store incoming messages received from the CAN bus.</p>
-<p>Example of Transmission Using Buffers
-The application code requests to send a message by writing data into a TX buffer.
-The CAN controller checks if the buffer is ready and assigns it a priority.
-The message waits in the TX buffer until the bus is free, at which point the controller begins transmitting.
-If a higher-priority message arrives while a lower-priority message is pending, the CAN controller may delay the lower-priority message, prioritizing the transmission of the higher-priority one.</p>
-<h4 id="what-if-you-are-not-using-rxfifo-in-can-bus-">What if you are not using RxFIFO in CAN bus ?</h4>
-<p>So you either configure each individual MB or you use RxFIFO.</p>
-<h4 id="how-do-i-decide-how-many-message-buffers-must-my-module-have-">How do I decide, how many message buffers must my module have ?</h4>
-<h4 id="what-is-can-freeze-mode-and-why-is-it-needed-">What is CAN freeze mode and why is it needed ?</h4>
-<p>As the name suggests, the CAN module in this goes into freeze mode and does not transmit or receive any CAN message. But retains its<br>
-configuration and status. The main requirement of this mode would be when there is a firmware upgrade going, or during the initial startup of the system or to isolate a system from CAN Bus.</p>
-<h4 id="if-not-output-hardware-is-connected-will-all-the-messages-be-waiting-in-the-txbuffer--and-how-can-you-access-it-for-debugging-purpose-">If not output hardware is connected, will all the messages be waiting in the TxBuffer ? And how can you access it for debugging purpose ?</h4>
-<h4 id="are-you-exchanging-data-or-are-you-exchanging-message-codes-that-are-known-to-both-sender-and-receiver-">Are you exchanging data or are you exchanging message codes that are known to both sender and receiver ?</h4>
-<p>Answer in terms of CAN and CAN FD.
-Answer in terms of UDS.</p>
-<h4 id="why-is-a-termination-resistor-needed-in-can-bus-">Why is a termination resistor needed in CAN Bus ?</h4>
-<h4 id="what-is-can-iso-tp-">What is CAN ISO-TP ?</h4>
-<h4 id="what-do-you-mean-by-flexible-in-can-fd-">What do you mean by flexible in CAN-FD ?</h4>
+            <p>MCAL</p>
+<p>MCAL is a software module that has direct access to all the on-chip MCU peripheral modules and external devices,which are mapped to memory. And it makes the upper software layers (Basic software layer, or BSW, Application Layer) independent of the MCU.
+Reference: <a href="https://www.embitel.com/blog/embedded-blog/what-is-autosar-mcal-software-architecture"
+
+
+
+
+ target="_blank"
+ 
+
+
+>https://www.embitel.com/blog/embedded-blog/what-is-autosar-mcal-software-architecture</a></p>
 
           </div>
           <div class="row items-start justify-between">
@@ -1035,7 +1008,7 @@ Answer in terms of UDS.</p>
   
     <a
       class="share-link share-facebook"
-      href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2fcanbus%2f"
+      href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2fembeddedengineering%2f"
       target="_blank"
       rel="noopener"
       aria-label="share facebook">
@@ -1053,7 +1026,7 @@ Answer in terms of UDS.</p>
   
     <a
       class="share-link share-twitter"
-      href="https://twitter.com/intent/tweet/?text=Share&amp;url=http%3a%2f%2flocalhost%3a1313%2fblog%2fcanbus%2f"
+      href="https://twitter.com/intent/tweet/?text=Share&amp;url=http%3a%2f%2flocalhost%3a1313%2fblog%2fembeddedengineering%2f"
       target="_blank"
       rel="noopener"
       aria-label="share twitter">
@@ -1071,7 +1044,7 @@ Answer in terms of UDS.</p>
   
     <a
       class="share-link share-email"
-      href="mailto:?subject=Share&amp;body=http%3a%2f%2flocalhost%3a1313%2fblog%2fcanbus%2f"
+      href="mailto:?subject=Share&amp;body=http%3a%2f%2flocalhost%3a1313%2fblog%2fembeddedengineering%2f"
       target="_self"
       rel="noopener"
       aria-label="share email">
@@ -1089,7 +1062,7 @@ Answer in terms of UDS.</p>
   
     <a
       class="share-link share-reddit"
-      href="https://reddit.com/submit/?url=http%3a%2f%2flocalhost%3a1313%2fblog%2fcanbus%2f&amp;resubmit=true&amp;title=Share"
+      href="https://reddit.com/submit/?url=http%3a%2f%2flocalhost%3a1313%2fblog%2fembeddedengineering%2f&amp;resubmit=true&amp;title=Share"
       target="_blank"
       rel="noopener"
       aria-label="share reddit">
@@ -1225,29 +1198,29 @@ Answer in terms of UDS.</p>
         <picture>
           <source
             
-              srcset="/images/interruptsCover_hu9532715134584634846.webp"
+              srcset="/images/linkerFile_hu1796460618329789956.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/interruptsCover_hu7641452836549917825.webp"
+              srcset="/images/linkerFile_hu11729708621908908564.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/interruptsCover_hu9363015530714124867.webp"
+              srcset="/images/linkerFile_hu14193715969149344753.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/interruptsCover_hu3317494413430565589.webp"
+              srcset="/images/linkerFile_hu581462150287053881.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/interruptsCover_hu12070433910033153382.png"
+              src="/images/linkerFile_hu250623888333035234.png"
             class=" mb-6 w-full rounded img"
-            alt="Interrupts"
+            alt="Linker"
             width="1096"
             height="480" />
         </picture>
@@ -1263,8 +1236,8 @@ Answer in terms of UDS.</p>
 
   
   <h4 class="mb-3">
-    <a href="/blog/interrupts/">
-      Interrupts
+    <a href="/blog/linker/">
+      Linker
     </a>
   </h4>
   
@@ -1283,8 +1256,8 @@ Answer in terms of UDS.</p>
       </li>
     </ul>
   
-  <p class="mb-6">What is an Interrupt? In an embedded system, an interrupt is a hardware or software signal that temporarily halts the normal execution of a program to service a higher-priority event.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/blog/interrupts/">
+  <p class="mb-6">The linker file (or linker script) plays a crucial role in embedded systems development, defining how the program&rsquo;s sections (like code, data, and stack) are placed in the memory map of the target device.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/blog/linker/">
     Read More
   </a>
 </div>
@@ -1374,29 +1347,29 @@ Answer in terms of UDS.</p>
         <picture>
           <source
             
-              srcset="/images/esp32/esp32_one_hu13091771724110294104.webp"
+              srcset="/images/wolfSSLCover_hu14715791189509237499.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/esp32/esp32_one_hu9134284866241544596.webp"
+              srcset="/images/wolfSSLCover_hu12858593125201255991.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/esp32/esp32_one_hu2552753102244953574.webp"
+              srcset="/images/wolfSSLCover_hu14852564124284933998.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/esp32/esp32_one_hu11107738463760425656.webp"
+              srcset="/images/wolfSSLCover_hu17525448292391902900.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/esp32/esp32_one_hu2663266929283189455.jpg"
+              src="/images/wolfSSLCover_hu15482319363341403993.png"
             class=" mb-6 w-full rounded img"
-            alt="Automotive Engineering"
+            alt="Encryption of Text file with wolfCrypt"
             width="1096"
             height="480" />
         </picture>
@@ -1412,8 +1385,8 @@ Answer in terms of UDS.</p>
 
   
   <h4 class="mb-3">
-    <a href="/blog/automotiveengineering/">
-      Automotive Engineering
+    <a href="/blog/wolfssltext/">
+      Encryption of Text file with wolfCrypt
     </a>
   </h4>
   
@@ -1424,16 +1397,16 @@ Answer in terms of UDS.</p>
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/categories/roadmap/"
+            href="/categories/cryptography/"
             class="ms-1"
-            >Roadmap
+            >Cryptography
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">What is AUTOSAR (AUTomotive Open System ARchitecture)? AUTOSAR is a standard that most companies follow when designing the Software Architectures for automotive applications.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/blog/automotiveengineering/">
+  <p class="mb-6">Introduction: This tutorial guides you through installing and using wolfCrypt, a cryptographic library by wolfSSL, to encrypt a text file on a Windows machine.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/blog/wolfssltext/">
     Read More
   </a>
 </div>
@@ -1523,29 +1496,29 @@ Answer in terms of UDS.</p>
         <picture>
           <source
             
-              srcset="/images/esp32/esp32_one_hu13091771724110294104.webp"
+              srcset="/images/togglDisplay/togglDisplay_thumb_hu8198681395821099714.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/esp32/esp32_one_hu9134284866241544596.webp"
+              srcset="/images/togglDisplay/togglDisplay_thumb_hu13222753886408109448.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/esp32/esp32_one_hu2552753102244953574.webp"
+              srcset="/images/togglDisplay/togglDisplay_thumb_hu5841699888142928134.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/esp32/esp32_one_hu11107738463760425656.webp"
+              srcset="/images/togglDisplay/togglDisplay_thumb_hu12302020797326220048.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/esp32/esp32_one_hu2663266929283189455.jpg"
+              src="/images/togglDisplay/togglDisplay_thumb_hu6125856650487024024.png"
             class=" mb-6 w-full rounded img"
-            alt="ESP32 WROOM - NRND"
+            alt="TogglDisplay"
             width="1096"
             height="480" />
         </picture>
@@ -1561,8 +1534,8 @@ Answer in terms of UDS.</p>
 
   
   <h4 class="mb-3">
-    <a href="/blog/esp32parts/">
-      ESP32 WROOM - NRND
+    <a href="/blog/toggldisplay/">
+      TogglDisplay
     </a>
   </h4>
   
@@ -1573,16 +1546,16 @@ Answer in terms of UDS.</p>
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/categories/components/"
+            href="/categories/projects/"
             class="ms-1"
-            >Components
+            >Projects
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">And yet again, I decided to order components from AliExpress with the least hope of finding a working ESP32 by Espressif, but to my surprise it does work quiet well !</p>
-  <a class="btn btn-outline-primary btn-sm" href="/blog/esp32parts/">
+  <p class="mb-6">My office uses Toggl(https://toggl.com/) a time tracking tool, to track the working hours.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/blog/toggldisplay/">
     Read More
   </a>
 </div>
