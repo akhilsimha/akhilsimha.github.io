@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Akhil Simha</title><link>https://akhilsimha.github.io/categories/projects/</link><description>Recent content in Projects on Akhil Simha</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 29 May 2025 12:05:42 +0200</lastBuildDate><atom:link href="https://akhilsimha.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>TogglDisplay</title><link>https://akhilsimha.github.io/blog/toggldisplay/</link><pubDate>Thu, 29 May 2025 12:05:42 +0200</pubDate><guid>https://akhilsimha.github.io/blog/toggldisplay/</guid><description>My office uses Toggl(https://toggl.com/) a time tracking tool, to track the working hours.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Akhil Simha</title>
+    <link>http://localhost:1313/categories/projects/</link>
+    <description>Recent content in Projects on Akhil Simha</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 May 2025 12:05:42 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TogglDisplay</title>
+      <link>http://localhost:1313/blog/toggldisplay/</link>
+      <pubDate>Thu, 29 May 2025 12:05:42 +0200</pubDate>
+      <guid>http://localhost:1313/blog/toggldisplay/</guid>
+      <description>My office uses Toggl(https://toggl.com/) a time tracking tool, to track the working hours.</description>
+    </item>
+  </channel>
+</rss>

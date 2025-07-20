@@ -1,1 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Akhil Simha</title><link>https://akhilsimha.github.io/</link><description>Recent content on Akhil Simha</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Jun 2025 11:47:37 +0200</lastBuildDate><atom:link href="https://akhilsimha.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Driving License</title><link>https://akhilsimha.github.io/living/drivinglicense/</link><pubDate>Sun, 29 Jun 2025 11:47:37 +0200</pubDate><guid>https://akhilsimha.github.io/living/drivinglicense/</guid><description>Here is my experience of getting Driving License in Pinneberg District of Schleswig-Holstein.</description></item><item><title>TogglDisplay</title><link>https://akhilsimha.github.io/blog/toggldisplay/</link><pubDate>Thu, 29 May 2025 12:05:42 +0200</pubDate><guid>https://akhilsimha.github.io/blog/toggldisplay/</guid><description>My office uses Toggl(https://toggl.com/) a time tracking tool, to track the working hours.</description></item><item><title>Serial Mode Communication</title><link>https://akhilsimha.github.io/blog/serialpython/</link><pubDate>Tue, 11 Mar 2025 00:00:00 +0100</pubDate><guid>https://akhilsimha.github.io/blog/serialpython/</guid><description>Arduino Run the following code in Arduino: void setup() { /* Initialise Serial Communication */ Serial.</description></item><item><title>Linker</title><link>https://akhilsimha.github.io/blog/linker/</link><pubDate>Mon, 09 Dec 2024 19:08:11 +0100</pubDate><guid>https://akhilsimha.github.io/blog/linker/</guid><description>The linker file (or linker script) plays a crucial role in embedded systems development, defining how the program&amp;rsquo;s sections (like code, data, and stack) are placed in the memory map of the target device.</description></item><item><title>Interrupts</title><link>https://akhilsimha.github.io/blog/interrupts/</link><pubDate>Fri, 15 Nov 2024 18:45:14 +0100</pubDate><guid>https://akhilsimha.github.io/blog/interrupts/</guid><description>What is an Interrupt? In an embedded system, an interrupt is a hardware or software signal that temporarily halts the normal execution of a program to service a higher-priority event.</description></item><item><title>ESP32 WROOM - NRND</title><link>https://akhilsimha.github.io/blog/esp32parts/</link><pubDate>Mon, 30 Sep 2024 00:00:00 +0200</pubDate><guid>https://akhilsimha.github.io/blog/esp32parts/</guid><description>And yet again, I decided to order components from AliExpress with the least hope of finding a working ESP32 by Espressif, but to my surprise it does work quiet well !</description></item><item><title>Automotive Engineering</title><link>https://akhilsimha.github.io/blog/automotiveengineering/</link><pubDate>Thu, 26 Sep 2024 19:26:23 +0200</pubDate><guid>https://akhilsimha.github.io/blog/automotiveengineering/</guid><description>What is AUTOSAR (AUTomotive Open System ARchitecture)? AUTOSAR is a standard that most companies follow when designing the Software Architectures for automotive applications.</description></item><item><title>Encryption of Text file with wolfCrypt</title><link>https://akhilsimha.github.io/blog/wolfssltext/</link><pubDate>Mon, 23 Sep 2024 19:20:55 +0200</pubDate><guid>https://akhilsimha.github.io/blog/wolfssltext/</guid><description>Introduction: This tutorial guides you through installing and using wolfCrypt, a cryptographic library by wolfSSL, to encrypt a text file on a Windows machine.</description></item><item><title>Recommendation</title><link>https://akhilsimha.github.io/recommendation/</link><pubDate>Sun, 22 Sep 2024 21:37:02 +0200</pubDate><guid>https://akhilsimha.github.io/recommendation/</guid><description>Gallery YouTube Channels Books Movies These two individuals are absolute gems of teachers; they serve as role models and a true source of inspiration:</description></item><item><title>Logic Analyzer</title><link>https://akhilsimha.github.io/blog/logicanalyzer/</link><pubDate>Sun, 22 Sep 2024 00:00:00 +0200</pubDate><guid>https://akhilsimha.github.io/blog/logicanalyzer/</guid><description>Introduction: As an embedded engineer, a reliable logic analyzer is an essential tool for debugging and troubleshooting projects.</description></item><item><title>Elements</title><link>https://akhilsimha.github.io/elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://akhilsimha.github.io/elements/</guid><description>Table of Contents Heading 2 Heading 3 Heading 4 Heading 5 Emphasis Button Link Paragraph Ordered List Unordered List Notice Tab Accordions Code and Syntax Highlighting Blockquote Tables Image Gallery Slider Youtube video Custom video Here is an example of headings.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Akhil Simha</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Akhil Simha</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Jun 2025 11:47:37 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Driving License</title>
+      <link>http://localhost:1313/living/drivinglicense/</link>
+      <pubDate>Sun, 29 Jun 2025 11:47:37 +0200</pubDate>
+      <guid>http://localhost:1313/living/drivinglicense/</guid>
+      <description>Here is my experience of getting Driving License in Pinneberg District of Schleswig-Holstein.</description>
+    </item>
+    <item>
+      <title>TogglDisplay</title>
+      <link>http://localhost:1313/blog/toggldisplay/</link>
+      <pubDate>Thu, 29 May 2025 12:05:42 +0200</pubDate>
+      <guid>http://localhost:1313/blog/toggldisplay/</guid>
+      <description>My office uses Toggl(https://toggl.com/) a time tracking tool, to track the working hours.</description>
+    </item>
+    <item>
+      <title>Serial Mode Communication</title>
+      <link>http://localhost:1313/blog/serialpython/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/serialpython/</guid>
+      <description>Arduino Run the following code in Arduino: void setup() { /* Initialise Serial Communication */ Serial.</description>
+    </item>
+    <item>
+      <title>Linker</title>
+      <link>http://localhost:1313/blog/linker/</link>
+      <pubDate>Mon, 09 Dec 2024 19:08:11 +0100</pubDate>
+      <guid>http://localhost:1313/blog/linker/</guid>
+      <description>The linker file (or linker script) plays a crucial role in embedded systems development, defining how the program&amp;rsquo;s sections (like code, data, and stack) are placed in the memory map of the target device.</description>
+    </item>
+    <item>
+      <title>Interrupts</title>
+      <link>http://localhost:1313/blog/interrupts/</link>
+      <pubDate>Fri, 15 Nov 2024 18:45:14 +0100</pubDate>
+      <guid>http://localhost:1313/blog/interrupts/</guid>
+      <description>What is an Interrupt? In an embedded system, an interrupt is a hardware or software signal that temporarily halts the normal execution of a program to service a higher-priority event.</description>
+    </item>
+    <item>
+      <title>ESP32 WROOM - NRND</title>
+      <link>http://localhost:1313/blog/esp32parts/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/blog/esp32parts/</guid>
+      <description>And yet again, I decided to order components from AliExpress with the least hope of finding a working ESP32 by Espressif, but to my surprise it does work quiet well !</description>
+    </item>
+    <item>
+      <title>Encryption of Text file with wolfCrypt</title>
+      <link>http://localhost:1313/blog/wolfssltext/</link>
+      <pubDate>Mon, 23 Sep 2024 19:20:55 +0200</pubDate>
+      <guid>http://localhost:1313/blog/wolfssltext/</guid>
+      <description>Introduction: This tutorial guides you through installing and using wolfCrypt, a cryptographic library by wolfSSL, to encrypt a text file on a Windows machine.</description>
+    </item>
+    <item>
+      <title>Recommendation</title>
+      <link>http://localhost:1313/recommendation/</link>
+      <pubDate>Sun, 22 Sep 2024 21:37:02 +0200</pubDate>
+      <guid>http://localhost:1313/recommendation/</guid>
+      <description>Gallery YouTube Channels Books Movies These two individuals are absolute gems of teachers; they serve as role models and a true source of inspiration:</description>
+    </item>
+    <item>
+      <title>Logic Analyzer</title>
+      <link>http://localhost:1313/blog/logicanalyzer/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/blog/logicanalyzer/</guid>
+      <description>Introduction: As an embedded engineer, a reliable logic analyzer is an essential tool for debugging and troubleshooting projects.</description>
+    </item>
+    <item>
+      <title>Elements</title>
+      <link>http://localhost:1313/elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/elements/</guid>
+      <description>Table of Contents Heading 2 Heading 3 Heading 4 Heading 5 Emphasis Button Link Paragraph Ordered List Unordered List Notice Tab Accordions Code and Syntax Highlighting Blockquote Tables Image Gallery Slider Youtube video Custom video Here is an example of headings.</description>
+    </item>
+  </channel>
+</rss>
