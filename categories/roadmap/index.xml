@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Roadmap on Akhil Simha</title><link>https://akhilsimha.github.io/categories/roadmap/</link><description>Recent content in Roadmap on Akhil Simha</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 26 Sep 2024 19:26:23 +0200</lastBuildDate><atom:link href="https://akhilsimha.github.io/categories/roadmap/index.xml" rel="self" type="application/rss+xml"/><item><title>Automotive Engineering</title><link>https://akhilsimha.github.io/blog/automotiveengineering/</link><pubDate>Thu, 26 Sep 2024 19:26:23 +0200</pubDate><guid>https://akhilsimha.github.io/blog/automotiveengineering/</guid><description>What is AUTOSAR (AUTomotive Open System ARchitecture)? AUTOSAR is a standard that most companies follow when designing the Software Architectures for automotive applications.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roadmap on Akhil Simha</title>
+    <link>http://localhost:1313/categories/roadmap/</link>
+    <description>Recent content in Roadmap on Akhil Simha</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Aug 2025 20:24:43 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I2CLearningBoard</title>
+      <link>http://localhost:1313/blog/i2clearningboard/</link>
+      <pubDate>Mon, 11 Aug 2025 20:24:43 +0200</pubDate>
+      <guid>http://localhost:1313/blog/i2clearningboard/</guid>
+      <description>I wanted to get started with PCB designing. After a lot of beating around the bush, I finally decided to work with some ICs instead of just designing a PCB that only blinks.</description>
+    </item>
+  </channel>
+</rss>
