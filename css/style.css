@@ -3187,6 +3187,9 @@ input#nav-toggle:checked ~ #nav-menu {
   margin-left: 0px !important;
 }
 
+.about-page .content p {
+  text-align: justify; }
+
 @media (min-width: 540px) {
 
   .sm\:col-10 {
