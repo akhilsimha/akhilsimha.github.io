@@ -698,19 +698,19 @@ select {
   outline: 1px auto -webkit-focus-ring-color;
 }
   html {
-  font-size: 12.8px;
+  font-size: 12px;
 }
   @media (min-width: 768px) {
 
   html {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
   body {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   font-family: Heebo, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.625;
   --tw-text-opacity: 1;
@@ -745,48 +745,48 @@ select {
 }
   h1,
   .h1 {
-  font-size: 2.6873856rem;
+  font-size: 2.081754689062499rem;
 }
   @media (min-width: 768px) {
 
   h1,
   .h1 {
-    font-size: 2.9859839999999997rem;
+    font-size: 2.313060765624999rem;
   }
 }
   h2,
   .h2 {
-  font-size: 2.239488rem;
+  font-size: 1.8102214687499996rem;
 }
   @media (min-width: 768px) {
 
   h2,
   .h2 {
-    font-size: 2.48832rem;
+    font-size: 2.0113571874999994rem;
   }
 }
   h3,
   .h3 {
-  font-size: 1.86624rem;
+  font-size: 1.5741056249999996rem;
 }
   @media (min-width: 768px) {
 
   h3,
   .h3 {
-    font-size: 2.0736rem;
+    font-size: 1.7490062499999994rem;
   }
 }
   h4,
   .h4 {
-  font-size: 1.728rem;
+  font-size: 1.5208749999999995rem;
 }
   h5,
   .h5 {
-  font-size: 1.44rem;
+  font-size: 1.3224999999999998rem;
 }
   h6,
   .h6 {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
   b,
   strong {
@@ -1394,30 +1394,30 @@ main {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .content :is(:where(h1):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-  font-size: 2.6873856rem;
+  font-size: 2.081754689062499rem;
 }
 @media (min-width: 768px) {
 
   .content :is(:where(h1):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-    font-size: 2.9859839999999997rem;
+    font-size: 2.313060765624999rem;
   }
 }
 .content :is(:where(h2):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-  font-size: 2.239488rem;
+  font-size: 1.8102214687499996rem;
 }
 @media (min-width: 768px) {
 
   .content :is(:where(h2):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-    font-size: 2.48832rem;
+    font-size: 2.0113571874999994rem;
   }
 }
 .content :is(:where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-  font-size: 1.86624rem;
+  font-size: 1.5741056249999996rem;
 }
 @media (min-width: 768px) {
 
   .content :is(:where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-    font-size: 2.0736rem;
+    font-size: 1.7490062499999994rem;
   }
 }
 .content :is(:where(img):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
@@ -1434,7 +1434,7 @@ main {
   border-color: rgb(62 62 62 / var(--tw-border-opacity));
 }
 .content :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-  font-size: 16px;
+  font-size: 15px;
   --tw-text-opacity: 1;
   color: rgb(68 68 68 / var(--tw-text-opacity));
 }
@@ -2192,7 +2192,7 @@ input#nav-toggle:checked ~ #nav-menu {
   font-size: 8rem;
 }
 .text-h3 {
-  font-size: 2.0736rem;
+  font-size: 1.7490062499999994rem;
 }
 .text-lg {
   font-size: 1.125rem;
@@ -3482,7 +3482,7 @@ input#nav-toggle:checked ~ #nav-menu {
   }
 
   .lg\:text-h1 {
-    font-size: 2.9859839999999997rem;
+    font-size: 2.313060765624999rem;
   }
 
   .group:hover .lg\:group-hover\:visible {
