@@ -1,0 +1,34 @@
+---
+title: "Personal Git Cheat Sheet"
+date: 2025-06-29T11:28:43+02:00
+description: "this is meta description"
+image: "/images/logicAnalyzer/logicAnalyzer1.jpg"
+categories: ["Notes"]
+#author: "Akhil Simha Neela"
+tags: ["component"]
+draft: true
+---
+
+This is my personal Git Cheat Sheet that I refer to when I forget (which I always do).
+
+Initialising Git and pushing to a repository in GitHub
+
+1. Initialize Git in your project folder
+`git init`
+2. Add all files to staging
+`git add .`
+3. Commit the files
+`git commit -m "Initial commit"`
+4. Add remote repository (replace with your GitHub repo URL)
+`git remote add origin https://github.com/your-username/your-repo.git`
+5. Push to GitHub (main branch)
+`git push -u origin main`
+
+
+In order to add some more files to the last commit:
+
+1. To add any pending files
+`git add .`
+
+2. To amend the changes to last commit:
+`git commit --amend`
