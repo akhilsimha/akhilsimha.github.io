@@ -1483,6 +1483,8 @@ main {
 .content :is(:where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(4 4 4 / var(--tw-text-opacity));
 }
 .content:is(.dark *) :is(:where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   --tw-text-opacity: 1;
